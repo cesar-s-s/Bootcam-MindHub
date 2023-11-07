@@ -1,0 +1,1394 @@
+********************************************************************************************************
+
+
+Resumen ¿Qué es el Cloud Computing? ..... PAG 13
+
+
+¿De qué se compone un servidor?
+
+	• Computación: CPU 
+	• Memoria: RAM 
+
+	• Almacenamiento: Información 
+
+	• Base de datos: Almacenar los datos de forma estructurada 
+
+	• Red: Routers, switch, servidor DNS
+
+
+Problemas con el enfoque tradicional de las IT
+
+	• Pagar el alquiler del centro de datos
+	• Pagar el suministro eléctrico, la refrigeración y el mantenimiento
+	• Añadir y sustituir el hardware lleva tiempo
+	• El escalado es limitado
+	• Contratar un equipo 24/7 para supervisar la infraestructura
+	• ¿Cómo hacer frente a las catástrofes? (terremoto, apagón, incendio...)
+	• ¿Podemos externalizar todo esto?
+
+¿Qué es el Cloud Computing?
+
+	• El Cloud Computing (Computación en la nube) es el suministro bajo demanda de potencia de cálculo, 	almacenamiento en bases de datos, aplicaciones y otros recursos informáticos
+	• A través de una plataforma de servicios en el cloud con precios de pago por uso
+	• Puedes aprovisionar exactamente el tipo y el tamaño de los recursos informáticos que necesitas 
+	• Puedes acceder a tantos recursos como necesites, casi al instante
+	• Forma sencilla de acceder a servidores, almacenamiento, bases de datos y un conjunto de servicios de 	aplicaciones
+
+	• Amazon Web Services (AWS) posee y mantiene el hardware conectado a la red necesario para estos servicios 	de aplicaciones, mientras que aprovisionas y utilizas lo que necesitas a través de una aplicación web
+
+
+¡Has utilizado algunos servicios Cloud!
+
+	Gmail
+		• Servicio de correo electrónico en el Cloud
+		• Paga SOLO por tus correos electrónicos almacenados (sin infraestructura, etc.)
+
+	Dropbox
+		• Servicio de almacenamiento en el Cloud
+		• Originalmente construido en AWS
+
+	Netflix
+		• Construido en AWS
+		• Vídeo bajo demanda
+
+
+Los modelos de despliegue del Cloud
+
+	Cloud privado:
+
+		• Servicios en el cloud utilizados por una sola organización, no expuestos al público 
+		• Control total
+		• Seguridad para aplicaciones sensibles
+		• Satisfacer necesidades empresariales específicas
+
+	Cloud público:
+
+		• Recursos en el cloud que son propiedad de un proveedor de servicios en el cloud y son operados 		por él, y que se suministran a través de Internet
+		• Seis ventajas de la computación en el cloud
+
+	Cloud híbrido:
+
+		• Mantener algunos servidores en las instalaciones y extiende algunas capacidades al cloud
+		• Control de los activos sensibles en tu infraestructura privada
+		• Flexibilidad y rentabilidad del cloud público
+
+
+Las cinco características del Cloud computing
+
+	• Autoservicio bajo demanda (on-demand): 
+		• Los usuarios pueden aprovisionar recursos y utilizarlos sin interacción humana del proveedor de 		servicios
+
+	• Amplio acceso a la red: 
+		• Los recursos están disponibles a través de la red, y pueden ser accedidos por diversas 			plataformas de clientes
+
+	• Alquiler múltiple y agrupación de recursos: 
+		• Varios clientes pueden compartir la misma infraestructura y aplicaciones con seguridad y 			privacidad
+		• Múltiples clientes reciben servicio desde los mismos recursos físicos
+
+	• Rápida elasticidad y escalabilidad: 
+		• Adquirir y disponer de recursos de forma automática y rápida cuando sea necesario 
+		• Escala rápida y fácilmente en función de la demanda
+
+	• Servicio medido: 
+		• El uso se mide, los usuarios pagan correctamente por lo que han utilizado
+
+Seis ventajas del Cloud computing
+
+	• Cambia el gasto de capital (CAPEX) por el gasto operativo (OPEX)
+		• Pagar bajo demanda: no poseer el hardware
+		• Reducción del coste total de propiedad (TCO) y de los gastos operativos (OPEX)
+
+	• Te beneficias de economías de escala masivas
+		• Los precios se reducen ya que AWS es más eficiente debido a la gran escala
+
+	• Deja de adivinar la capacidad
+		• Escala basada en el uso real medido
+
+	• Aumentar la velocidad y la agilidad
+
+	• Deja de gastar dinero en el funcionamiento y el mantenimiento de los centros de datos
+
+	• Se global en minutos: aprovecha la infraestructura global de AWS
+
+
+Problemas resueltos por el Cloud
+
+	• Flexibilidad: cambia los tipos de recursos cuando sea necesario
+	• Rentabilidad: paga por lo que utilizas
+	• Escalabilidad: permite acomodar mayores cargas reforzando el hardware o añadiendo nodos adicionales
+	• Elasticidad: capacidad de reducir y aumentar la escala cuando sea necesario
+	• Alta disponibilidad y tolerancia a los fallos: construye a través de los centros de datos (data centers)
+	• Agilidad: desarrollar, testear y lanzar rápidamente aplicaciones de software
+
+Tipos de Cloud Computing
+
+	• Infraestructura como servicio (IaaS)
+		• Proporciona bloques de construcción para la IT en el cloud
+		• Proporciona redes, ordenadores y espacio de almacenamiento de datos
+		• Máximo nivel de flexibilidad
+		• Fácil paralelismo con la IT tradicional en las instalaciones
+	• Plataforma como servicio (PaaS)
+		• Elimina la necesidad de que tu organización gestione la infraestructura subyacente
+		• Se centra en el despliegue y la gestión de tus aplicaciones
+	• Software como servicio (SaaS)
+		• Producto completo que es ejecutado y gestionado por el proveedor de servicios
+
+Ejemplo de tipos de Cloud Computing 
+
+	• Infraestructura como servicio: 
+		• Amazon EC2 (en AWS) 
+		• GCP, Azure, Rackspace, Digital Ocean, Linode 
+
+	• Plataforma como servicio: 
+		• Elastic Beanstalk (en AWS) 
+		• Heroku, Google App Engine (GCP), Windows Azure (Microsoft) 
+
+	• Software como servicio: 
+		• Muchos servicios de AWS (por ejemplo, Rekognition para el aprendizaje automático)
+		• Google Apps (Gmail), Dropbox, Zoom
+
+
+Precios del Cloud - Visión general rápida
+
+	• AWS tiene 3 fundamentos de precios, siguiendo el modelo de precios de pago por uso
+
+	• Computación:
+		• Pagar por el tiempo de computación
+
+	• Almacenamiento:
+		• Paga por los datos almacenados en el Cloud
+
+	• Transferencia de datos FUERA del Cloud:
+		• La transferencia de datos hacia adentro es gratuita
+		• Resuelve el costoso problema de las IT tradicionales
+
+
+Infraestructura global de AWS
+
+	• AWS Regions 
+	• Regiones de AWS 
+
+	• AWS Availability Zones 
+	• Zonas de disponibilidad de AWS 
+
+	• AWS Data Centers 
+	• Centros de datos de AWS 
+
+	• AWS Edge Locations / Points of Presence 
+	• Puntos de presencia de AWS 
+
+
+Regiones de AWS 
+
+	• AWS tiene Regiones en todo el mundo 
+	• Los nombres pueden ser us-east-1, eu-west-3... 
+	• Una región es un grupo de centros de datos 
+	• La mayoría de los servicios de AWS son de ámbito regional
+
+
+¿Cómo elegir una región de AWS?
+
+	• Cumplimiento de los requisitos legales y de gobernanza de datos: los datos nunca salen de una región sin 	tu permiso explícito
+	• Proximidad a los clientes: latencia reducida
+	• Servicios disponibles en una región: los nuevos servicios y las nuevas funciones no están disponibles en 	todas las regiones
+	• Precios: los precios varían de una región a otra y son transparentes en la página de precios del servicio
+
+
+
+Zonas de disponibilidad de AWS
+
+	• Cada región tiene muchas zonas de disponibilidad (normalmente 3, el mínimo es 3, el máximo es 6). 	Ejemplo:
+		• ap-southeast-2a
+		• ap-southeast-2b
+		• ap-southeast-2c
+	• Cada zona de disponibilidad (AZ) es uno o varios centros de datos discretos con alimentación, red y 	conectividad redundantes
+	• Están separadas unas de otras, de modo que están aisladas de las catástrofes
+	• Están conectadas con redes de alto ancho de banda y latencia ultrabaja
+
+Puntos de presencia de AWS (Edge Locations) 
+
+	• Amazon tiene +450 puntos de presencia (+10 cachés regionales) en +90 ciudades de +40 países
+	• El contenido se entrega a los usuarios finales con menor latencia
+
+
+Tour por la consola de AWS
+
+	• AWS cuenta con servicios globales:
+
+		• Identity and Access Management (IAM)
+		• Route 53 (servicio DNS)
+		• CloudFront (Red de entrega de contenido)
+		• WAF (Firewall de aplicaciones web)
+
+	• La mayoría de los servicios de AWS son de ámbito regional:
+
+		• Amazon EC2 (Infraestructura como servicio)
+		• Elastic Beanstalk (Plataforma como servicio)
+		• Lambda (Función como servicio)
+		• Rekognition (Software como servicio)
+
+
+
+Diagrama del modelo de responsabilidad compartida
+
+
+
+********************************************************************************************************
+
+
+Resumen IAM ..... PAG 42
+
+
+• AWS cuenta con servicios globales:
+
+	• Identity and Access Management (IAM)
+	• Route 53 (servicio DNS)
+	• CloudFront (Red de entrega de contenido)
+	• WAF (Firewall de aplicaciones web)
+
+• La mayoría de los servicios de AWS son de ámbito regional:
+	
+	• Amazon EC2 (Infraestructura como servicio)
+	• Elastic Beanstalk (Plataforma como servicio)
+	• Lambda (Función como servicio)
+	• Rekognition (Software como servicio)
+
+
+
+• Para acceder a AWS, tienes tres opciones:
+
+	• Consola de administración de AWS (protegida por contraseña + MFA)
+	• Interfaz de línea de comandos de AWS (CLI): protegida por claves de acceso
+	• AWS Software Developer Kit (SDK) - para el código: protegido por claves 
+	de acceso
+	• Las claves de acceso se generan a través de la consola de AWS
+
+• Los usuarios gestionan sus propias claves de acceso
+• Las claves de acceso son secretas, como una contraseña. No las compartas
+• ID de la clave de acceso ~= nombre de usuario
+• Clave de acceso secreta ~= contraseña
+
+
+• CloudShell:
+	
+	• Este servicio nos va a permitir acceder a una terminal de una forma bastante más genérica 
+	• CloudShell funciona a nivel de REGIÓN 
+	• No está disponible para todas las regiones 
+
+
+Roles IAM para los servicios:
+
+	• Roles comunes: 
+		• Roles de Instancia EC2 
+		• Roles de la función Lambda 
+		• Roles para CloudFormat
+
+
+Herramientas de seguridad IAM
+	
+	• IAM Credentials Report / Informe de credenciales de IAM 
+	(a nivel de cuenta)
+	
+		• Un informe que enumera todos los usuarios de tu cuenta y el estado de 
+		tus diversas credenciales
+	
+	• IAM Access Advisor / Asesor de acceso de IAM (a nivel de usuario)
+
+		• Muestra los permisos de servicio concedidos a un usuario y cuando se 
+		accedió a esos servicios por última vez
+		• Puedes utilizar esta información para revisar tus políticas
+
+
+Buenas prácticas de IAM:
+
+	• No utilices la cuenta root excepto para la configuración de la cuenta AWS
+	• Un usuario físico = Un usuario AWS
+	• Asignar usuarios a grupos y asignar permisos a grupos
+	• Crear una política de contraseñas fuerte
+	• Utilizar y reforzar el uso de la autenticación multifactor (MFA)
+	• Crear y utilizar Roles para dar permisos a los servicios de AWS
+	• Utilizar claves de acceso para el acceso programático (CLI / SDK)
+	• Revisar los permisos de tu cuenta con el informe de credenciales de IAM o 
+	el asesor de acceso de IAM 
+	• No compartir nunca los usuarios de IAM ni las claves de acceso
+
+
+Modelo de responsabilidad compartida para IAM:
+
+	• AWS:
+		• Infraestructura (seguridad de la red global)
+		• Análisis de configuración y vulnerabilidad 
+		• Validación de la conformidad
+
+	Usuario:
+		• Gestión y supervisión de usuarios, grupos, roles y políticas
+		• Habilitar MFA en todas las cuentas
+		• Rota todas tus claves con frecuencia
+		• Utiliza las herramientas IAM para aplicar los permisos adecuados
+		• Analiza los patrones de acceso y revisa los permisos 
+
+
+Resumen - IAM:
+
+	• Usuarios: mapeado a un usuario físico, tiene una contraseña para la consola de AWS
+	• Grupos: contiene sólo usuarios 
+	• Políticas: Documento JSON que describe los permisos para los usuarios o grupos
+	• Roles: para instancias EC2 o servicios AWS
+	• Seguridad: MFA + Política de contraseñas
+	• AWS CLI: gestiona tus servicios de AWS mediante la línea de comandos
+	• AWS SDK: gestiona tus servicios de AWS utilizando un lenguaje de programación
+	• Claves de acceso: accede a AWS mediante la CLI o el SDK
+	• Auditoría: Informes de credenciales de IAM y Asesor de acceso de IAM
+
+
+
+
+
+********************************************************************************************************
+
+
+Resumen EC2 ..... PAG 60 
+
+
+• Amazon EC2
+
+	• EC2 es una de las ofertas más populares de AWS 
+	• EC2 = Elastic Compute Cloud = Infraestructura como servicio (IaaS)
+	• Consiste principalmente en la capacidad de :
+		• Alquilar máquinas virtuales (EC2)
+		• Almacenar datos en unidades virtuales (EBS)
+		• Distribuir la carga entre las máquinas (ELB)
+		• Escalar los servicios mediante un Auto Scaling Group (ASG) o también 
+		conocido en español como Grupo de Autoescalado
+		• Conocer EC2 es fundamental para entender el funcionamiento del Cloud
+
+
+Tipos de instancias EC2 - Propósito general: 
+
+	• Computación optimizada:
+		• Ideal para tareas de cálculo intensivo que requieren procesadores de alto rendimiento:
+			• Cargas de trabajo de procesamiento por lotes
+			• Transcodificación de medios
+			• Servidores web de alto rendimiento
+			• Computación de alto rendimiento (HPC)
+			• Modelado científico y aprendizaje automático
+			• Servidores dedicados a juegos
+	
+	• Memoria optimizada:
+
+		• Rápido rendimiento para cargas de trabajo que procesan grandes conjuntos de datos en memoria
+		• Casos de uso: 
+			• Alto rendimiento, bases de datos relacionales/no relacionales
+			• Almacenes de caché distribuidos a escala web
+			• Bases de datos en memoria optimizadas para BI (business intelligence)
+			• Aplicaciones que realizan el procesamiento en tiempo real de grandes datos no 				estructurados
+	
+	• Almacenamiento optimizado:
+
+		• Ideal para tareas de almacenamiento intensivo que requieran un acceso alto y secuencial de 			lectura y escritura a grandes conjuntos de datos en el almacenamiento local
+		• Casos de uso: 
+			• Sistemas de procesamiento de transacciones en línea (OLTP) de alta frecuencia
+			• Bases de datos relacionales y NoSQL
+			• Caché para bases de datos en memoria (por ejemplo, Redis)
+			• Aplicaciones de almacenamiento de datos
+			• Sistemas de archivos distribuidos
+
+
+Grupos de seguridad - Inmersión más profunda:
+
+	• Los grupos de seguridad actúan como un “firewall" en las instancias de 
+	EC2 
+	• Regulan:
+		• El acceso a los puertos
+		• Rangos de IP autorizados - IPv4 e IPv6
+		• Control de la red de entrada (de otros a la instancia)
+		• Control de la red saliente (desde la instancia hacia otra)
+
+
+
+Opciones de compra de instancias EC2
+
+	• EC2 bajo demanda:
+
+		• Paga por lo que usas
+		• Linux o Windows - facturación por segundo, después del primer minuto
+		• Todos los demás sistemas operativos: facturación por hora 
+		• Tiene el coste más elevado, pero no hay que pagar por adelantado
+		• Sin compromiso a largo plazo
+		• Recomendado para cargas de trabajo a corto plazo y sin 
+		interrupciones, cuando no se puede predecir el comportamiento de la 
+		aplicación
+
+
+	• Instancias reservadas de EC2:
+
+		• Hasta un 72% de descuento en comparación con el servicio bajo demanda
+		• Reserva de atributos de instancia específicos (tipo de instancia, región, ocupación, sistema 			operativo)
+		• Periodo de reserva - 1 año (+descuento) o 3 años (+++descuento)
+		• Opciones de pago - Sin pago inicial (+), Pago inicial parcial (++), Pago inicial total (+++)
+		• Alcance de la instancia reservada - Por región o por zona (capacidad de reserva en una AZ)
+		• Recomendado para aplicaciones de uso constante (piensa en una base de datos)
+		• Puedes comprar y vender en el Marketplace de instancias reservadas
+
+
+	• Instancia reservada convertible:
+
+		• Puedes cambiar el tipo de instancia EC2, la familia de instancias, el SO, etc. 
+		• Hasta un 66% de descuento
+
+
+	• Planes de ahorro EC2:
+
+		• Obtén un descuento basado en el uso a largo plazo (hasta el 72%)
+		• Comprométete a un determinado tipo de uso (10 $/hora durante 1 o 3 años)
+		• El uso más allá de los planes de ahorro de EC2 se factura al precio bajo demanda
+
+
+	• Instancias EC2 Spot:
+
+		• Puedes obtener un descuento de hasta el 90% en comparación con la demanda
+		• Instancias que puedes "perder" en cualquier momento si su precio máximo es inferior al precio 
+		spot actual
+		• Las instancias MÁS rentables de AWS
+		• Útil para las cargas de trabajo que son resistentes a los fallos
+		• No es adecuado para trabajos críticos o bases de datos
+
+
+
+	• Hosts dedicados EC2: 
+
+		• Un servidor físico con capacidad de instancia EC2 totalmente dedicado a su uso
+		• Permite abordar los requisitos de normativas y utilizar licencias de software vinculadas al 			servidor existentes (licencias de software por socket, por núcleo, por VM)
+		• Opciones de compra:
+			• Bajo demanda - pago por segundo para el host dedicado activo
+			• Reservado - 1 o 3 años (sin pago inicial, pago inicial parcial, pago inicial total)
+		• La opción más cara
+
+
+	• Instancias dedicadas de EC2: 
+
+		• Las instancias se ejecutan en un hardware dedicado para ti
+		• Puedes compartir el hardware con otras instancias de la misma cuenta
+		• No hay control sobre la ubicación de las instancias (se puede mover el hardware después de la 		parada/arranque)
+
+
+	• Reservas de capacidad de EC2:
+
+		• Reserva la capacidad de las instancias bajo demanda en una AZ específica para cualquier duración
+		• Siempre tendrás acceso a la capacidad de EC2 cuando la necesites
+
+
+¿Qué opción de compra me conviene?
+
+	• Bajo demanda (On demand): venir y quedarse en el complejo cuando queramos, pagamos el precio completo
+
+	• Reservada (Reserved): cómo planificar con antelación y si planeamos quedarnos durante mucho tiempo, 	podemos obtener un buen descuento
+
+	• Planes de ahorro (Savings Plans): pagamos una cantidad por hora durante un periodo determinado y nos 	alojamos en cualquier tipo de habitación (por ejemplo, King, Suite, Vista al mar, ...)
+
+	• Instancias de spot (Spot instances): el hotel permite que la gente puje por las habitaciones vacías y el 	mejor postor se queda con ellas. Puede ser expulsado en cualquier momento
+
+	• Hosts dedicados (Dedicated Hosts): Se reserva un edificio entero del complejo turístico
+
+	• Reservas de capacidad (Capacity Reservations): reservas una habitación por un periodo con el precio 	completo aunque no te alojes en ella
+
+
+Modelo de responsabilidad compartida para EC2: 
+
+	• AWS:
+
+		• Infraestructura (seguridad global de la red)
+		• Aislamiento en hosts físicos
+		• Sustitución de hardware defectuoso
+		• Validación de la normativa
+
+	• CLIENTE:
+
+		• Reglas de los grupos de seguridad
+		• Parches y actualizaciones del sistema operativo
+		• Software y utilidades instaladas en la instancia EC2
+		• Roles IAM asignados a EC2 y gestión de acceso de usuarios IAM
+		• Seguridad de los datos en tu instancia
+
+
+Resumen - EC2: 
+
+	• Instancia EC2: AMI (SO) + Tamaño de la Instancia (CPU + RAM) + Almacenamiento + Grupos de Seguridad + 	Datos de Usuario EC2
+	• Grupos de seguridad: Firewall adjunto a la instancia EC2
+	• Datos de usuario de EC2: Script lanzado en el primer arranque de una instancia
+	• SSH: iniciar un terminal en nuestras instancias EC2 (puerto 22)
+	• Rol de la Instancia EC2: enlace a los roles de IAM
+	• Opciones de compra: On-Demand, Spot, Reservada (Estándar + Convertible + Programada), Host Dedicado, 	Instancia Dedicada
+
+
+*************************************************************************************
+
+Resumen ALMACENAMIENTO DE INSTANCIAS EC2 ..... PAG 95
+
+¿Qué es un volumen EBS?
+
+	• Un volumen EBS (Elastic Block Store) es una unidad de red que puede adjuntar a las instancias mientras se 	ejecutan 
+	• Permite que las instancias persistan los datos, incluso después de su finalización 
+	• Sólo pueden montarse en una instancia a la vez (a nivel de CCP) • Están vinculados a una zona de 	disponibilidad específica 
+	• Analogía: Piensa en ellos como una "memoria USB de red" 
+	• Nivel gratuito: 30 GB de almacenamiento EBS 	gratuito de tipo Propósito General (SSD) o Magnético al mes
+
+Volumen EBS
+
+	• Es una unidad de red (es decir, no es una unidad física)
+		• Utiliza la red para comunicar la instancia, lo que significa que puede haber un poco de latencia
+		• Se puede separar de una instancia EC2 y conectarla a otra rápidamente
+	• Está bloqueado en una Zona de Disponibilidad (AZ)
+		• Un volumen EBS en us-east-1a no puede adjuntarse a us-east-1b
+		• Para trasladar un volumen, primero hay que hacer un snapshot del mismo
+	• Tener una capacidad provisionada (tamaño en GBs, e IOPS)
+		• Se facturará toda la capacidad aprovisionada
+		• Puede aumentar la capacidad de la unidad con el tiempo
+
+
+
+EBS - Atributo "Borrar al terminar”
+
+	• Controla el comportamiento de EBS cuando una instancia EC2 termina	
+	• Por defecto, se elimina el volumen EBS root / raíz (atributo habilitado)
+	• Por defecto, cualquier otro volumen EBS adjunto no se elimina (atributo deshabilitado)
+	• Esto puede ser controlado por la consola de AWS / AWS CLI
+	• Caso de uso: preservar el volumen root / raíz cuando se termina la instancia
+
+
+Visión general de AMI: 
+
+	• AMI = Amazon Machine Image
+	• Las AMI son una personalización de una instancia EC2:
+		• Añades tu propio software, configuración, sistema operativo, monitorización...
+		• Tiempo de arranque/configuración más rápido porque todo el software está preempaquetado
+	• Las AMI se construyen para una región específica (y pueden copiarse entre regiones)
+	• Puedes lanzar instancias EC2 desde:
+		• Una AMI pública: proporcionada por AWS
+		• Tu propia AMI: la creas y la mantienes tú mismo
+	• Una AMI de AWS Marketplace: una AMI hecha por otra persona (y potencialmente vendida)
+
+
+
+Constructor de imágenes EC2 - EC2 Image Builder
+
+	• Se utiliza para automatizar la creación de máquinas virtuales o imágenes de contenedores
+	• => Automatizar la creación, mantener, validar y probar las AMIs de EC2
+	• Puede ejecutarse de forma programada (semanalmente, cada vez que se actualizan los paquetes, etc...)
+	• Servicio gratuito (sólo se paga por los recursos subyacentes), es decir lo que estan de bajo. Si usamos
+	miles de instancias pagaremos por eso. 
+	• EL Constructor de imágenes EC2 NO tiene un precio 
+
+
+Almacén de instancias EC2
+
+	• Si necesitas un disco de hardware de alto rendimiento, utilizas EC2 Instance Store
+	• Mejor rendimiento de E/S (Entrada/Salida)
+	• Riesgo de pérdida de datos si el hardware falla
+	• Las copias de seguridad y la replicación son responsabilidad tuya
+
+
+EFS Infrequent Access (EFS-IA)
+
+	• Clase de almacenamiento con costes optimizados para los archivos a los que no se accedes a diario
+	• Hasta un 92% menos de coste en comparación con EFS Standard
+	• EFS moverá automáticamente tus archivos a EFS-IA basándose en la última vez que se accedió a ellos
+
+
+Modelo de responsabilidad compartida para el almacenamiento de EC2
+
+	• AWS:
+
+		• Infraestructura
+		• Replicación de datos para volúmenes EBS y unidades EFS
+		• Sustitución de hardware defectuoso
+		• Asegurar que sus empleados no puedan acceder a tus datos
+
+	• CLIENTE:
+
+		• Configuración de procedimientos de copia de seguridad / instantánea
+		• Configuración de la encriptación de datos
+		• Responsabilidad de los datos en las unidades
+		• Comprender el riesgo de utilizar EC2 Instance Store
+
+
+Amazon FSx - Visión general
+
+	• Lanzar sistemas de archivos de alto rendimiento de terceros en AWS
+
+
+Resumen - Almacenamiento de instancias EC2
+
+	• Volúmenes EBS: 
+		• Unidades de red adjuntas a una instancia EC2 a la vez
+		• Asignados a una zona de disponibilidad
+		• Puede utilizar EBS Snapshots para copias de seguridad / transferir volúmenes EBS a través de AZ
+	• AMI: crea instancias EC2 listas para usar con nuestras personalizaciones
+	• EC2 Image Builder: construye, prueba y distribuye automáticamente AMIs
+	• EC2 Instance Store:
+		• Disco de hardware de alto rendimiento unido a nuestra instancia EC2
+		• Se pierde si nuestra instancia se detiene / termina
+	• EFS: sistema de archivos en red, se puede adjuntar a 100s de instancias en una región
+	• EFS-IA: clase de almacenamiento de coste optimizado para archivos de acceso poco frecuente
+	• FSx para Windows: sistema de archivos en red para servidores Windows
+	• FSx para Lustre: sistema de archivos Linux de alto rendimiento informático
+
+
+
+*************************************************************************************
+
+Resumen ELASTIC LOAD BALANCING Y AUTO SCALING GROUPS ..... PAG 115
+
+
+Escalabilidad y Alta Disponibilidad 
+
+	• La escalabilidad significa que una aplicación/sistema puede manejar mayores cargas adaptándose. 
+	• Hay dos tipos de escalabilidad:
+		• Escalabilidad vertical
+		• Escalabilidad horizontal (= elasticidad)
+	• La escalabilidad está vinculada pero es diferente a la alta disponibilidad
+
+
+Escalabilidad vertical
+
+	• La escalabilidad vertical significa AUMENTAR el tamaño de la instancia. 
+	• Hacer crecer las características de una instancia
+	• Por ejemplo, tu aplicación se ejecuta en una instancia t2.micro
+	• Escalar esa aplicación verticalmente significa ejecutarla en una instancia t2.large
+	• La escalabilidad vertical es muy común para sistemas no distribuidos, como una base de datos 
+	• Por lo general, hay un límite en cuanto a lo que se puede escalar verticalmente (límite de hardware)
+
+
+Escalabilidad horizontal
+
+	• Escalabilidad horizontal significa aumentar el número de instancias / sistemas para la aplicación.
+	• Significa aumentar el número de instancias en lugar de mejorar sus características
+	• El escalado horizontal implica sistemas distribuidos. Porque hay más instancias 
+	• Esto es muy común para las aplicaciones web / aplicaciones modernas
+	• Es fácil escalar horizontalmente gracias a las ofertas en el Cloud como Amazon EC2
+
+
+Alta disponibilidad
+
+	• La alta disponibilidad suele ir de la mano del escalado horizontal
+	• Alta disponibilidad significa EJECUTAR la aplicación / sistema en al menos 2 zonas de disponibilidad
+	• El objetivo de la alta disponibilidad es sobrevivir a la pérdida del centro de datos (desastre)
+
+
+
+Alta disponibilidad y escalabilidad para EC2
+
+	• Escalado vertical: Aumentar el tamaño de la instancia (= escalar hacia arriba / abajo)
+	• Escalado horizontal: Aumentar el número de instancias (= escalado hacia fuera / hacia dentro)
+		• Auto Scaling Group
+		• Load Balancer
+	• Alta disponibilidad: Ejecutar instancias para la misma aplicación a través de múltiples AZ
+		• Auto Scaling Group multi AZ
+		• Load Balancer multi AZ
+
+
+Escalabilidad vs. Elasticidad (vs. Agilidad)
+
+	• Escalabilidad: capacidad de acomodar una mayor carga reforzando el hardware (scale up), o añadiendo nodos 	(scale out)
+	• Elasticidad: una vez que un sistema es escalable, la elasticidad significa que habrá cierto 	"autoescalado" para que el sistema pueda escalar en función de la 
+	carga. Esto es "amigable con el Cloud": pago por uso, adecuación a la demanda, optimización de costes
+	• Agilidad: (no relacionado con la escalabilidad - distractor) los nuevos recursos de IT están a un clic de 	distancia, lo que significa que se reduce el tiempo para poner esos recursos a disposición de los 	desarrolladores de semanas a sólo minutos
+
+
+¿Qué es el load balancing?
+
+	• Los Load Balancers (equilibradores de carga) son servidores que reenvían el tráfico de Internet a 	múltiples servidores (Instancias EC2) en sentido descendente
+
+
+¿Por qué utilizar un Load Balancer?
+
+	• Distribuir la carga entre múltiples instancias descendentes
+	• Exponer un único punto de acceso (DNS) en tu aplicación
+	• Manejar sin problemas los fallos de las instancias descendentes
+	• Si una instancia fala, el Load Balancer detecta el fallo y dirige el tráfico hacia las otras instancias 
+	• Realiza comprobaciones periódicas del estado de tus instancias
+	• Proporcionar terminación SSL (HTTPS) para tus sitios web
+	• Alta disponibilidad entre zonas
+
+
+¿Por qué utilizar un Elastic Load Balancer (ELB)?
+
+	• Un ELB (Elastic Load Balancer) es un Load Balancer (equilibrador de carga) gestionado por AWS 
+		• AWS garantiza su funcionamiento
+		• AWS se encarga de las actualizaciones, el mantenimiento y la alta disponibilidad
+		• AWS sólo proporciona unos pocos controles de configuración
+
+	• Cuesta menos configurar tu propio Load Balancer pero te supondrá mucho más esfuerzo (mantenimiento, 	integraciones)
+
+	• Varios tipos de Load Balancer ofrecidos por AWS:
+
+		• Application Load Balancer: 
+			• (sólo HTTP / HTTPS / gRPC) - Capa 7
+			• DNS estático (URL)
+		• Network Load Balancer: 
+			• (Alto rendimiento: millones de peticiones por segundo con baja latancia, permite TCP / 			UDP) - Capa 4
+			• IP estática a través de IP elástica
+		• Gateway Load Balancer:
+			• (Protocolo GENEVE en paquetes IP)- Capa 3
+			• Enrutar el tráfico a los firewalls que gestionas en las instancias EC2
+			• Detección de intrusos
+		• Classic Load Balancer: 
+		(retirado en 2023) - Capa 4 y 7
+
+
+
+¿Qué es un Auto Scaling Group?
+
+	• En la vida real, la carga de tus sitios web y aplicaciones puede cambiar
+	• En el Cloud, puedes crear y deshacerte de servidores muy rápidamente
+	• El objetivo de un Auto Scaling Group (ASG) es:
+		• Escalar para fuera (añadir instancias de EC2) para adaptarse a un aumento de la carga
+		• Escalar para dentro (eliminar instancias EC2) para que coincida con una disminución de la carga
+		• Asegurar que tenemos un número mínimo y máximo de máquinas en funcionamiento
+		• Registrar automáticamente nuevas instancias en un Load Balancer
+		• Reemplazar las instancias en mal estado
+	• Ahorro de costes: sólo se ejecuta a una capacidad óptima (principio del Cloud)
+
+
+Auto Scaling Groups – Estrategias de escalado
+
+	• Escalado manual: Actualizar el tamaño de un ASG manualmente
+	• Escalado dinámico: Responde a los cambios en la demanda
+		• Escalado simple / por pasos
+		• Escalado de seguimiento de objetivos	
+		• Escalado programado	
+	• Escalado predictivo
+		• Utiliza el Machine Learning para predecir el tráfico futuro con antelación
+
+
+
+
+
+Resumen - ELB y ASG 
+
+	• Alta disponibilidad vs escalabilidad (vertical y horizontal) vs elasticidad vs agilidad en el Cloud
+	• Elastic Load Balancers (ELB)
+		• Distribuyen el tráfico entre las instancias EC2 del backend, pueden ser Multi-AZ
+		• Soporta chequeos de salud
+		• 4 tipos: Classic (antiguo), Application (HTTP - L7), Network (TCP - L4), Gateway (L3)
+	• Auto Scaling Groups (ASG)
+		• Implementa la elasticidad para tu aplicación, a través de múltiples AZ
+		• Escala las instancias EC2 en función de la demanda de tu sistema, sustituye las instancias en mal 		estado
+		• Integrado con el ELB
+
+
+
+
+*************************************************************************************
+
+
+Resumen Amazon S3 ..... PAG 132
+
+
+Introducción de la sección
+
+	• Amazon S3 es uno de los principales bloques de construcción de AWS
+	• Se anuncia como almacenamiento de "escala infinita". 
+	• Muchos sitios web utilizan Amazon S3 como columna vertebral
+	• Muchos servicios de AWS utilizan Amazon S3 como una integración también
+	• Tendremos una aproximación paso a paso a S3
+	• El examen CCP requiere un conocimiento "más profundo" sobre S3
+
+
+S3 Casos de uso
+
+	• Copia de seguridad y almacenamiento 
+	• Recuperación de desastres 
+	• Almacenamiento en el Cloud híbrido 
+	• Alojamiento de aplicaciones 
+	• Alojamiento de medios 
+	• Data Lakes y análisis de big data 
+	• Entrega de software 
+	• Sitio web estátic
+
+
+Amazon S3 - Buckets
+
+	• Amazon S3 permite almacenar objetos (archivos) en "buckets" (directorios)
+	• Los buckets deben tener un nombre único global (en todas las regiones y todas las cuentas)
+	• Los buckets se definen a nivel de región 
+	• S3 parece un servicio global, pero los buckets se crean en una región
+	• Convención de nombres
+		• Sin mayúsculas, sin guión bajo
+		• De 3 a 63 caracteres
+		• No es una IP
+		• Debe empezar por letra minúscula o número
+		• NO debe empezar por el prefijo xn--
+		• NO debe terminar con el sufijo -s3alias
+
+Amazon S3 - Objetos
+
+	• Los objetos (archivos) tienen una clave
+	• La clave es la ruta COMPLETA: Ejemplo
+		• s3://mi-bucket/mi-archivo.txt
+		• s3://mi-bucket/mi_carpeta1/otra_carpeta/mi-archivo.txt
+
+
+Amazon S3 - Objetos (cont.)
+
+	• Los valores de los objetos son el contenido del cuerpo:
+		• Max. Tamaño del objeto es 5TB (5000GB)
+		• Si subes más de 5GB, debes utilizar "subida multiparte"
+
+
+Seguridad S3
+
+	• Basada en el usuario
+		• Políticas IAM - qué llamadas a la API deben permitirse a un usuario concreto desde IAM
+	• Basada en recursos
+		• Políticas de bucket - reglas para todo el bucket desde la consola de S3 - permite cuentas 			cruzadas
+		• Lista de control de acceso a objetos (ACL) - nivel de detalle profundo (puede desactivarse)
+		• Lista de control de acceso a bucket (ACL) - menos común (puede desactivarse)
+	• Nota: un usuario IAM puede acceder a un objeto S3 si
+		• Los permisos IAM del usuario LO PERMITEN O la política de recursos LO PERMITE
+		• Y no hay una DENEGACIÓN explícita
+	• Cifrado: cifra objetos en Amazon S3 utilizando claves de cifrado
+
+
+Amazon S3 - Versionado
+
+	• Puedes versionar tus archivos en Amazon S3
+	• Se activa a nivel de bucket
+	• La misma clave de sobrescritura cambiará la "versión": 1, 2, 3....
+	• Es una buena práctica versionar tus buckets
+	• Protege contra borrados involuntarios (posibilidad de restaurar una versión)
+	• Rolling fácil a la versión anterior 
+	• Nota:
+		• Cualquier archivo que no esté versionado antes de activar el versionado tendrá la versión "nula".
+		• Suspender el versionado no elimina las versiones anteriores
+
+
+Clases de almacenamiento S3
+
+	• Amazon S3 Standard - Uso general
+	• Amazon S3 Standard-Infrequent Access (IA)
+	• Amazon S3 One Zone-Infrequent Access
+	• Amazon S3 Glacier Instant Retrieval
+	• Amazon S3 Glacier Flexible Retrieval
+	• Amazon S3 Glacier Deep Archive
+	• Amazon S3 Intelligent Tiering
+	• Se puede pasar de una clase a otra manualmente o utilizando las configuraciones del ciclo de vida de S3
+
+
+S3 Durabilidad y disponibilidad
+
+	• Durabilidad:
+		• Alta durabilidad (99,999999999%, 11 9's) de los objetos a través de múltiples AZ
+		• Si almacenas 10.000.000 de objetos con Amazon S3, puedes esperar una media de pérdida de un solo 		objeto 	una vez cada 10.000 años
+		• Lo mismo para todas las clases de almacenamiento
+	• Disponibilidad:
+		• Mide la disponibilidad de un servicio
+		• Varía en función de la clase de almacenamiento
+		• Ejemplo: El estándar S3 tiene una disponibilidad del 99,99% = no está disponible 53 minutos al 		año
+
+Standard S3 - Uso general
+	
+	• Disponibilidad del 99,99%.
+	• Se utiliza para datos de acceso frecuente
+	• Baja latencia y alto rendimiento
+	• Soporta 2 fallos concurrentes de la instalación
+
+	• Casos de uso: Análisis de Big Data, aplicaciones móviles y de juegos, distribución de contenidos..
+
+
+Clases de almacenamiento S3 – Infrequent Access
+
+	• Clases de almacenamiento en S3
+	• Coste inferior al de S3 Standard
+
+
+	• Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+		• Disponibilidad del 99,9%.
+		• Casos de uso: Recuperación de desastres, copias de seguridad
+	• Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
+		• Alta durabilidad (99,999999999%) en una sola AZ; los datos se pierden cuando se destruye la AZ
+		• Disponibilidad del 99,5%.
+		• Casos de uso: Almacenamiento de copias de seguridad secundarias de datos locales, o de datos que 		puedes recrear
+
+
+Clases de almacenamiento S3 – Amazon S3 Glacier
+
+	• Almacenamiento de objetos de bajo coste  pensado para archivar / hacer copias de seguridad
+	• Precio: precio del almacenamiento + coste de recuperación del objeto
+
+	• Amazon S3 Glacier Instant Retrieval
+		• Recuperación en milisegundos, ideal para datos a los que se accede una vez al trimestre 
+		• Duración mínima de almacenamiento de 90 días
+	• Amazon S3 Glacier Flexible Retrieval (antes Amazon S3 Glacier)
+		• Acelerada (de 1 a 5 minutos), Estándar (de 3 a 5 horas), Masiva (de 5 a 12 horas) - gratis
+		• Duración mínima de almacenamiento de 90 días
+	• Amazon S3 Glacier Deep Archive - para almacenamiento a largo plazo:
+		• Estándar (12 horas), Masiva (48 horas)
+		 • Duración mínima de almacenamiento de 180 días
+
+
+S3 Intelligent-Tiering
+
+	• Pequeña cuota mensual de monitorización y jerarquización automática
+	• Mueve los objetos automáticamente entre los niveles de acceso en función del uso
+	• No hay cargos por recuperación en S3 Intelligent-Tiering
+
+	• Frequent Access tier (automático): nivel por defecto
+	• Infrequent Access tier (automático): objetos no accedidos durante 30 días
+	• Archive Instant Access tier (automático): objetos no accedidos durante 90 días
+	• Archive Access tier (opcional): configurable de 90 a más de 700 días
+	• Deep Archive Access tier (opcional): configurable de 180 días a 700+ días
+
+
+Modelo de Responsabilidad Compartida para S3
+
+
+Modelo de responsabilidad compartida para el almacenamiento de EC2
+
+	• AWS:
+
+		• Infraestructura (seguridad global, durabilidad, disponibilidad, sostener la pérdida concurrente 		de datos en dos instalaciones)
+		• Análisis de configuración y vulnerabilidad 
+		• Validación de la normativa
+
+	• CLIENTE:
+
+		• Versionado de S3
+		• Políticas de bucket S3
+		• Configuración de la replicación de S3
+		• Logs y monitorización
+		• Clases de almacenamiento de S3
+		• Encriptación de datos en reposo y en tránsito
+
+
+Familia AWS Snow
+
+	• Dispositivos portátiles de alta seguridad para recopilar, procesar datos, y migrar datos hacia y desde 	AWS
+
+	• Migración de datos: 
+		• Snowcone
+		• Snowball Edge
+		• Snowmobile
+
+	• Edge computing:
+		• Snowcone
+		• Snowball Edge 
+
+
+Migraciones de datos con AWS Snow
+
+	• Familia AWS Snow: Son dispositivos que nos van a permitir a nosotros que, sin conexión hacia internet 	realizar migraciones de datos
+	• Si la transferencia a través de la red tarda más de una semana, ¡utiliza los dispositivos Snowball!
+
+
+Snowball Edge (para las transferencias de datos)
+
+	• Solución de transporte físico de datos: mover TBs o PBs de datos dentro o fuera de AWS
+	• Alternativa a mover datos a través de la red (y pagar tarifas de red)
+	• Paga por trabajo de transferencia de datos
+	• Proporciona almacenamiento de bloques y almacenamiento de objetos compatible con Amazon S3
+	• Almacenamiento optimizado Snowball Edge
+		• 80 TB de capacidad de HDD para volumen de bloques y almacenamiento de objetos compatible con S3
+	• Computación optimizada de Snowball Edge
+		• 42 TB de capacidad HDD o 28 TB de capacidad NVMe para volumen de bloques y almacenamiento de 			objetos compatible con S3
+	• Casos de uso: migraciones al Cloud de grandes volúmenes de datos,  recuperación ante desastres
+
+
+AWS Snowcone 
+
+	• Pequeño y portátil, en cualquier lugar, robusto y seguro, resiste entornos difíciles
+	• Ligero (4,5 libras, 2,1 kg) 
+	• Dispositivo utilizado para computación de borde, almacenamiento y transferencia de datos
+	• Snowcone - 8 TB de almacenamiento HDD 
+	• Snowcone SSD - 14 TB de almacenamiento SSD 
+	• Utiliza Snowcone donde no quepa Snowball (entorno con limitaciones de espacio)
+	• Debes proporcionar tu propia batería / cables 
+	• Se puede enviar a AWS sin conexión, o conectarlo a internet y utilizar AWS DataSync para enviar los datos
+
+
+AWS Snowmobile
+
+	• Transfiere exabytes de datos (1 EB = 1.000 PB = 1.000.000 TBs)
+	• Cada Snowmobile tiene 100 PB de capacidad (utiliza varias en paralelo)
+	• Alta seguridad: temperatura controlada, GPS, videovigilancia 24/7
+	• Mejor que la Snowball si transfieres más de 10 PB
+
+
+
+¿Qué es Edge Computing (Computación en el borde) ?
+
+	• Procesa los datos mientras se crean en una Edge Location
+	• Un camión en la carretera, un barco en el mar, una estación minera bajo tierra... 
+	• Estos lugares pueden tener 
+		• Acceso a Internet limitado / inexistente
+		• Acceso limitado / no fácil a la potencia de cálculo
+	• Configuramos un dispositivo Snowball Edge / Snowcone para realizar Edge Computing
+	• Casos de uso de Edge Computing:
+		• Preprocesamiento de datos
+		• Machine Learning 
+		• Transcodificación de flujos multimedia
+	• Eventualmente (si es necesario) podemos devolver el dispositivo a AWS (para transferir datos, por 	ejemplo)
+
+
+Snow Family – Edge Computing. 
+
+	• Veamos algunas caracteristicas de estos Dispositivos que pueden realizar Edge Computing 
+
+		• Snowcone y Snowcone SSD (más pequeños)
+			• 2 CPU, 4 GB de memoria, acceso por cable o inalámbrico
+			• Alimentación USB-C mediante un cable o la batería opcional
+		• Snowball Edge - Computación optimizada
+			• 104 vCPUs, 416 GiB de RAM
+			• GPU opcional (útil para procesamiento de vídeo o Machine Learning)
+			• Almacenamiento utilizable de 28 TB NVMe o 42 TB HDD
+			• Cluster de almacenamiento disponible (hasta 16 nodos)
+		• Snowball Edge - Almacenamiento optimizado
+			• Hasta 40 vCPU, 80 GiB de RAM, 80 TB de almacenamiento
+		• Todos: Pueden ejecutar instancias EC2 y funciones AWS Lambda (utilizando AWS IoT Greengrass)
+		• Opciones de despliegue a largo plazo: 1 y 3 años con descuento
+
+AWS OpsHub
+
+	• Históricamente, para utilizar los dispositivos de la Familia Snow, necesitabas una CLI (herramienta de 	interfaz de línea de comandos)
+	• Hoy en día, puedes utilizar AWS OpsHub (un software que instalas en tu ordenador/portátil) para 	administrar tu dispositivo de la Familia Snow
+
+
+Opciones nativas del Cloud de almacenamiento de AWS
+
+
+
+
+
+
+
+AWS Storage Gateway
+
+
+	• Puente entre los datos locales y los del Cloud en S3
+	• Servicio de almacenamiento híbrido para permitir que las instalaciones utilicen sin problemas el Cloud de 	AWS 
+	• Casos de uso: recuperación de desastres, copias de seguridad y restauración, almacenamiento por niveles
+	• Tipos de Gateway de almacenamiento:
+		• File Gateway 
+		• Volume Gateway
+		• Tape Gateway
+	• No es necesario conocer los tipos en el examen
+
+
+
+Resumen - Amazon S3
+
+	• Buckets vs Objetos: nombre único global, ligado a una región
+	• Seguridad de S3: política de IAM, política de bucket S3 (acceso público), cifrado S3
+	• Sitios web de S3: aloja un sitio web estático en Amazon S3
+	• Versionado de S3: múltiples versiones de archivos, para evitar borrados accidentales
+	• Replicación de S3: en la misma región o entre regiones, debe activar el control de versiones
+	• Clases de almacenamiento S3: Standard, IA, One Zone-IA, Intelligent, Glacier (Instant, Flexible, Deep)
+	• Familia Snow: importar datos a S3 a través de un dispositivo físico, edge computing
+	• OpsHub: aplicación de escritorio para gestionar los dispositivos de la Familia Snow
+	• Storage Gateway: solución híbrida para ampliar el almacenamiento local a S3
+
+
+
+*************************************************************************************
+
+
+
+Resumen Base de Datos ..... PAG 173 
+
+
+
+Introducción a las bases de datos
+
+	• El almacenamiento de datos en disco (EFS, EBS, EC2 Instance Store, S3) puede tener sus límites 
+	• A veces, quieres almacenar tus datos en una base de dato. Eso tiene sus ventajas como veremos e esta 	sección 
+	• Puedes estructurar los datos como tu desees en la base de datos. Cosa que ni puedes hacer en disco como 	EBS, EFS y los otros 
+	• Puedes construir índices para consultar / buscar eficientemente en los datos
+	• Puedes definir relaciones entre tus conjuntos de datos
+	• Las bases de datos están optimizadas para un propósito y vienen con diferentes características, formas y 	restricciones
+
+
+Bases de datos relacionales
+
+	• Tiene el mismo aspecto que las hojas de cálculo de Excel, ¡con enlaces entre ellas!
+	• Puede utilizar el lenguaje SQL para realizar consultas / búsquedas
+
+
+Bases de datos NoSQL
+
+	• NoSQL = no-SQL = bases de datos no relacionales
+	• Las bases de datos NoSQL están creadas para modelos de datos específicos y tienen esquemas flexibles para 	construir aplicaciones modernas.
+
+	• Ventajas:
+		• Flexibilidad: modelo de datos fácil de evolucionar
+		• Escalabilidad: diseñadas para escalar utilizando clusters distribuidos
+		• Alto rendimiento: optimizado para un modelo de datos específico
+		• Alta funcionalidad: tipos optimizados para el modelo de datos
+	
+	• Ejemplos: Bases de datos clave-valor, JSON documento, gráfico, en memoria, de búsqueda
+
+
+Bases de datos y responsabilidad compartida en AWS
+
+	• AWS ofrece el uso para gestionar diferentes bases de datos
+
+	• Los beneficios incluyen:
+		• Aprovisionamiento rápido, alta disponibilidad, escalado vertical y horizontal
+		• Copia de seguridad y restauración automatizadas, operaciones y actualizaciones
+		• El parcheo del sistema operativo lo gestiona AWS
+		• Monitorización, alertas
+
+	• Nota: muchas tecnologías de bases de datos pueden ejecutarse en EC2, pero debes ocuparte tú mismo de la 	resiliencia, las copias de seguridad, los parches, la alta disponibilidad, la tolerancia a fallos, el 	escalado... 
+
+
+Visión general de AWS RDS 
+
+	• RDS significa Servicio de Base de Datos Relacional
+	• Es un servicio de bases de datos gestionado para que las bases de datos utilicen SQL como lenguaje de 	consulta. 
+	• Permite crear bases de datos en el Cloud que son gestionadas por AWS
+		• Postgres
+		• MySQL
+		• MariaDB
+		• Oracle
+		• Microsoft SQL Server
+		• Aurora (base de datos propia de AWS)
+
+
+Ventaja sobre el uso de RDS frente al despliegue de la BD en EC2
+
+	• El RDS es un servicio gestionado por AWS, nos permite hacer:
+		• Aprovisionamiento automatizado, parcheo del SO
+		• Copias de seguridad continuas y restauración a una fecha determinada (Point in Time Restore)
+		• Dashboards de monitorización
+		• Réplicas de lectura para mejorar el rendimiento de lectura
+		• Configuración multi AZ para DR (Disaster Recovery)
+		• Ventanas de mantenimiento para actualizaciones
+		• Capacidad de escalado (vertical y horizontal)
+		• Almacenamiento respaldado por EBS (gp2 o io1)
+
+	• PERO no puedes acceder por SSH a tus instancias de RDS 
+
+
+
+Amazon Aurora
+
+	• Aurora es una tecnología propietaria de AWS (no de código abierto)
+	• Podemos usar PostgreSQL como MySQL están soportadas como BD de Aurora 
+	• Aurora está "optimizada para el Cloud de AWS" y afirma que mejora 5 veces el rendimiento de MySQL en RDS, 	y más de 3 veces el rendimiento de Postgres en RDS
+	• El almacenamiento de Aurora crece automáticamente en incrementos de 10 GB, hasta 128 TB 
+	• Aurora cuesta más que RDS (un 20% más), pero es más eficiente
+	• No está en el nivel gratuito
+
+
+Despliegues RDS: Réplicas de lectura, Multi-AZ
+
+	• Réplicas de lectura:
+
+		• Escala la carga de trabajo de lectura de tu BD
+		• Puedes crear hasta 15 réplicas de lectura
+		• Los datos sólo se escriben en la BD principal
+
+	• Multi-AZ:
+		• Recuperación en caso de caída de la AZ (alta disponibilidad)
+		• Los datos sólo se leen/escriben en la base de datos principal
+		• Sólo se puede tener otra AZ como conmutación por error, NO puede tener diferentes Zonas de 			disponibilidad. Sólo 1 
+
+
+
+
+Visión general de Amazon ElastiCache
+
+	• De la misma manera que RDS es para conseguir bases de datos relacionales gestionadas...
+	• ElastiCache es para conseguir Redis o Memcached gestionados
+	• Cachés = bases de datos en memoria de alto rendimiento y baja latencia
+	• Ayuda a reducir la carga de las bases de datos para cargas de trabajo de lectura intensiva
+
+	• AWS se encarga del mantenimiento/parche del sistema operativo, las optimizaciones, la instalación, la 	configuración, la supervisión, la recuperación de fallos y las copias de seguridad
+
+
+
+DynamoDB 
+
+	• Totalmente gestionado con replicación a través de 3 AZ
+	• Base de datos NoSQL - una base de datos no relacional 
+	• Escala a cargas de trabajo masivas, base de datos distribuida sin servidor
+	• Millones de peticiones por segundo, trillones de filas, cientos de TB de almacenamiento
+	• Rendimiento rápido y constante 
+	• Latencia de un milisegundo: recuperación de baja latencia
+	• Integrada con IAM para seguridad, autorización y administración
+	• Bajo coste y capacidad de autoescalado
+	• Clase de tabla de acceso estándar e infrecuente (IA)
+
+	• DynamoDB es una base de datos clave/valor
+
+
+DynamoDB Accelerator - DAX
+
+	• Caché en memoria totalmente gestionada para DynamoDB
+	• El Acelcelerator -DX, mejora del rendimiento x 10 - latencia de un milisegundo a microsegundos - al 	acceder a tus tablas de DynamoDB
+	• Seguridad, alta escalabilidad y alta disponibilidad
+	• Diferencia con ElastiCache a nivel de CCP: DAX sólo se utiliza y se integra con DynamoDB, mientras que 	ElastiCac para otras bases de datos 
+
+
+Visión general de Redshift
+
+	• Redshift se basa en PostgreSQL, pero no se utiliza para OLTP
+	• Es OLAP - procesamiento analítico en línea (análisis y almacenamiento de datos)
+	• Carga los datos una vez cada hora, no cada segundo
+	• Rendimiento 10 veces superior al de otros almacenes de datos, escala a PBs de datos
+	• Almacenamiento de datos en columnas (en lugar de en filas)
+	• Ejecución de consultas en paralelo masivo (MPP), con alta disponibilidad
+	• Paga a medida que avanzas en función de las instancias aprovisionadas
+	• Tiene una interfaz SQL para realizar las consultas
+	• Las herramientas de BI, como AWS Quicksight o Tableau, se integran con ella
+
+
+Amazon EMR
+
+	• EMR = Elastic MapReduce
+	• EMR ayuda a crear clusters Hadoop (Big Data) para analizar y procesar una gran cantidad de datos
+	• Los clusters pueden estar formados por cientos de instancias EC2
+	• También es compatible con Apache Spark, HBase, Presto, Flink...
+	• EMR se encarga de todo el aprovisionamiento y la configuración
+	• Autoescalado e integrado con instancias Spot
+	• Casos de uso: procesamiento de datos, machine Learning, indexación web, big data...
+
+Amazon Athena
+
+	• Servicio de consulta sin servidor para analizar los datos almacenados en Amazon S3
+	• Utiliza el lenguaje SQL estándar para consultar los archivos
+	• Admite CSV, JSON, ORC, Avro y Parquet (construido sobre Presto)
+	• Precio: 5,00 dólares por TB de datos analizados
+	• Utiliza datos comprimidos o en columnas para ahorrar costes (menos escaneo)
+	• Casos de uso: Inteligencia empresarial/análisis/informes, analizar y consultar Logs de flujo de VPC, Logs 	de ELB, rastros de CloudTrail, etc. 
+	• Sugerencia de examen: analiza los datos en S3 usando SQL sin servidor, usa Athen
+
+
+Amazon QuickSight
+
+	• Servicio de inteligencia empresarial impulsado por Machine Learning sin servidor para crear dashboards 	interactivos
+	• Rápido, escalable automáticamente, integrable, con precios por sesión
+	• Casos de uso:
+		• Análisis empresarial
+		• Construir visualizaciones
+		• Realizar análisis ad-hoc
+		• Obtén información empresarial con los datos
+		• Integrado con RDS, Aurora, Athena, Redshift, S3…
+
+
+DocumentDB
+
+	• Aurora es una "implementación de AWS" de PostgreSQL / MySQL ...
+	• DocumentDB es lo mismo que MongoDB (que es una base de datos NoSQL)
+	• MongoDB se utiliza para almacenar, consultar e indexar datos JSON
+	• “Conceptos de despliegue” similares a los de Aurora
+	• Totalmente gestionado, de alta disponibilidad con replicación a través de 3 AZ
+	• El almacenamiento de DocumentDB crece automáticamente en incrementos de 10 GB, hasta 128 TB 
+	• Escala automáticamente a cargas de trabajo con millones de peticiones por segundo
+
+Amazon Neptune 
+
+	• Base de datos gráfica totalmente gestionada 
+	• Un conjunto de datos de grafos popular sería una red social 
+		• Los usuarios tienen amigos 
+		• Las publicaciones tienen comentarios 
+		• Los comentarios tienen likes de los usuarios 
+		• Los usuarios comparten y les gustan las publicaciones... 
+	• Alta disponibilidad en 3 AZ, con hasta 15 réplicas de lectura 
+	• Construye y ejecuta aplicaciones que trabajen con conjuntos de datos altamente conectados, optimizados 	para estas complejas y difíciles consultas
+	• Puede almacenar hasta miles de millones de relaciones y consultar el gráfico con una latencia de 	milisegundos
+	• Alta disponibilidad con réplicas a través de múltiples AZs • Excelente para grafos de conocimiento 	(Wikipedia), detección de fraudes, motores de recomendación, redes sociales
+
+
+
+Amazon QLDB
+
+	• QLDB significa "Quantum Ledger Database" (base de datos de libros contables)
+	• Un libro de contabilidad es un libro que registra las transacciones financieras
+	• Totalmente gestionada, sin servidor, de alta disponibilidad, con replicación en 3 AZ
+	• Se utiliza para revisar el historial de todos los cambios realizados en los datos de tu aplicación a lo 	largo del tiempo 
+	• Sistema inmutable: ninguna entrada puede ser eliminada o modificada, verificable criptográficamente
+	• Rendimiento 2-3 veces mejor que los marcos de blockchain de libro mayor común
+	• Diferencia con Amazon Managed Blockchain: no hay componente de descentralización, de acuerdo con 
+	las normas de regulación financiera
+
+Amazon Managed Blockchain
+
+	• Blockchain permite crear aplicaciones en las que varias partes pueden ejecutar transacciones sin 	necesidad de una autoridad central de confianza.
+	• Amazon Managed Blockchain es un servicio gestionado para:
+		• Unirte a redes públicas de blockchain 
+		• O crear tu propia red privada escalable
+	• Compatible con los marcos Hyperledger Fabric y Ethereum
+
+
+
+AWS Glue
+
+	• Servicio gestionado de extracción, transformación y carga (ETL)
+	• Útil para preparar y transformar datos para la analítica
+	• Servicio totalmente sin servidor / serverless
+
+
+DMS – Database Migration Service
+
+	• Migra de forma rápida y segura las bases de datos a AWS, con capacidad de recuperación y autocuración
+	• La base de datos de origen sigue disponible durante la migración
+
+
+	• Soporta:
+		• Migraciones homogéneas: por ejemplo, de Oracle a Oracle
+		• Migraciones heterogéneas: por ejemplo, de Microsoft SQL Server a Aurora
+
+
+Resumen de bases de datos y análisis en AWS
+
+	• Bases de datos relacionales - OLTP: RDS y Aurora (SQL)
+	• Diferencias entre Multi-AZ, Réplicas de Lectura, Multi-Región
+	• Base de datos en memoria (in-memory): ElastiCache
+	• Base de datos de claves/valores: DynamoDB (sin servidor) y DAX (caché para DynamoDB)
+	• Warehouse - OLAP: Redshift (SQL)
+	• Cluster Hadoop: EMR
+	• Athena: consulta de datos en Amazon S3 (sin servidor y SQL)
+	• QuickSight: dashboards sobre tus datos (sin servidor)
+	• DocumentDB: "Aurora para MongoDB" (JSON - base de datos NoSQL)
+	• Amazon QLDB: Libro de transacciones financieras (libro inmutable, verificable criptográficamente)
+	• Amazon Managed Blockchain: cadenas de bloques Hyperledger Fabric y Ethereum gestionadas
+	• Glue: Servicio gestionado de ETL (Extract-Transform-Load) y Catálogo de Datos
+	• Database Migration: DMS
+	• Neptune: base de datos gráfica
+
+
+*************************************************************************************
+
+
+
+Resumen Otros servicios de computación ..... PAG 202
+
+
+
+
+
+
+
+
+
+
+
+
+*************************************************************************************
+
+
+
+Resumen Otros servicios de computación ..... PAG 202
+
+
+
+
+
+
+
+
+
+
+
+
+*************************************************************************************
